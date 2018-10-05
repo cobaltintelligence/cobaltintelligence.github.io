@@ -56,7 +56,7 @@ function initialize() {
     marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        title: 'CObalt Intelligence', //change title here
+        title: 'Cobalt Intelligence', //change title here
         animation: google.maps.Animation.DROP,
         position: mapLocation
     });
