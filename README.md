@@ -1,5 +1,5 @@
 # Cobalt Intelligence Homepage
-Designed by Yuan Wang, Graceland Research
+Created by Yuan Wang, Graceland Research
 
 ## License
 Copyright 2018 Cobalt Intelligence
