@@ -39,7 +39,7 @@ function initialize() {
     + '<div class="map-address-row">'
     + '   <span class="map-email">'
     + '      <i class="fa fa-envelope"></i>'
-    + '      <span class="text">info@cobaltintel.com.com</span>'
+    + '      <span class="text">info@cobaltintel.com</span>'
     + '   </span>'
     + '</div>' 
     + '<p class="gmap-open"><a href="https://www.google.com/maps/@30.406546, -87.214197,14" target="_blank">Open on Google Maps</a></p></div>';
