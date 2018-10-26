@@ -1,0 +1,42 @@
+[
+	{
+		"fullname": "John Smith",
+		"position": "Associate",
+		"shortbio": "This is John Smith's short bio",
+		"thumbnail": "images/team/1-270x270.jpg",
+		"team": "ops",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Jane Doe",
+		"position": "Analyst",
+		"shortbio": "This is Jane Doe's short bio",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "reef",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Mary Poppins",
+		"position": "Analyst",
+		"shortbio": "This is Mary Poppins' short bio",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "reef",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Tyson Cobb",
+		"position": "Analyst",
+		"shortbio": "This is Mary Poppins' short bio",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "galaxy",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	}
+]
