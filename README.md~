@@ -1,6 +1,11 @@
 # Cobalt Intelligence Homepage
 Created by Yuan Wang, Graceland Research
 
+## Local server
+```
+python -m SimpleHTTPServer 9000
+```
+
 ## License
 Copyright 2018 Cobalt Intelligence
 
