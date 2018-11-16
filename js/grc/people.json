@@ -23,7 +23,7 @@
 		"fullname": "Mike Herman",
 		"position": "Chief Engineer",
 		"shortbio": "A graduate of the University of Maryland with a degree in Nuclear Engineering, Mike has 25 years experience in the aquaculture, LED lighting, and entrepreneurship, founding ventures in the aquaculture space.",
-		"thumbnail": "images/team/2-270x270.jpg",
+		"thumbnail": "images/cobalt/Herman.png",
 		"team": "reef",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/mike-herman-295333b0"
@@ -33,10 +33,10 @@
 		"fullname": "Don Chipman",
 		"position": "Smart Reef Project Manager",
 		"shortbio": "Chip graduated the US Naval Academy in 1991 with a Bachelors of Science degree in Oceanography. He earned a Masters of Science degree in Management from Troy State University in 2001 and later attended Stanford University in 2010 as a Hoover Fellow.",
-		"thumbnail": "images/team/2-270x270.jpg",
+		"thumbnail": "images/cobalt/Chip.jpg",
 		"team": "reef",
 		"links": {
-			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+			"linkedin": "https://www.linkedin.com/in/don-chipman-4b696832"
 		}
 	},
 	{
@@ -46,7 +46,7 @@
 		"thumbnail": "images/cobalt/convey.jpg",
 		"team": "galaxy",
 		"links": {
-			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+			"linkedin": "https://www.linkedin.com/in/seannconvey"
 		}
 	},
 	{
@@ -72,7 +72,7 @@
 	{
 		"fullname": "Matt Johnson",
 		"position": "User Interface Architect",
-		"shortbio": "Matt  he served as a Naval Aviator, flying both fixed wing aircraft and helicopters. Matt obtained his undergraduate degree in Aerospace Engineering at the University of Notre Dame, obtained a Masters of Science in Computer Science from Texas A&M – Corpus Christi, and completed his PhD from Delft University in the Netherlands.",
+		"shortbio": "Matt served as a Naval Aviator, flying both fixed wing aircraft and helicopters. Matt obtained his undergraduate degree in Aerospace Engineering at the University of Notre Dame, obtained a Masters of Science in Computer Science from Texas A&M – Corpus Christi, and completed his PhD from Delft University in the Netherlands.",
 		"thumbnail": "images/team/2-270x270.jpg",
 		"team": "galaxy",
 		"links": {
@@ -86,7 +86,7 @@
 		"thumbnail": "images/team/2-270x270.jpg",
 		"team": "ops",
 		"links": {
-		"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		"linkedin": "https://www.linkedin.com/in/sonnygranger"
 		}
 	},
 	{
@@ -106,7 +106,7 @@
 		"thumbnail": "images/team/2-270x270.jpg",
 		"team": "ops",
 		"links": {
-		"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		"linkedin": "https://www.linkedin.com/in/justin-witkin-2283a912"
 		}
 	},
 	{
@@ -123,10 +123,10 @@
 		"fullname": "Joe Gomes",
 		"position": "Strategic Advisor",
 		"shortbio": "Joe specializes in human performance and technology integration, with over seventeen years of experience working with professional sports teams, US Special Operations Forces, and private industry.",
-		"thumbnail": "images/team/2-270x270.jpg",
+		"thumbnail": "images/cobalt/gomesheadshot.jpg",
 		"team": "galaxy",
 		"links": {
-			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+			"linkedin": "https://www.linkedin.com/in/jgomes78"
 		}
 	}
 ]
