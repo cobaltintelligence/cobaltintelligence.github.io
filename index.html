@@ -17,8 +17,39 @@
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
+
+<script src="js/jquery.min.js"></script>
 <script src="js/grc/header.js"></script>
 <script src="js/grc/footer.js"></script>
+<script id="projectsquare" type="template">
+  <div class="project-item item-shadow project">
+    <img alt="" class="img-responsive" src="{{image}}">
+    <div class="project-hover">
+      <div class="project-hover-content">
+        <strong class="section-subtitle">{{section_subtitle}}</strong>
+        <h3 class="project-title">{{title}}</h3>
+        <p class="project-description">{{project_description}}</p>
+      </div>
+    </div>
+    <a href="{{project_link}}" class="link-arrow">See project<i class="icon ion-ios-arrow-right"></i></a>
+  </div>
+</script> 
+
+<script id="personquare" type="template">
+              <div class="project-item item-shadow person">
+            <img alt="" class="img-responsive" src="{{image}}">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <strong class="section-subtitle">{{section_subtitle}}</strong>
+                <h3 class="project-title">{{title1}}</h3>
+                <p class="project-description">{{project_description}}</p>
+              </div>
+            </div>
+            <a href="{{project_link}}" class="link-arrow">See profile <i class="icon ion-ios-arrow-right"></i></a>
+          </div>
+</script>
+
+
 </head>
 <body>
 <div class="animsition">
@@ -557,9 +588,10 @@
             </div>
           </div>
         </div>
-        <div class="project-carousel owl-carousel">
+        <div class="project-carousel owl-carousel projects-data-inject">
           
-          <!-- <div class="project-item item-shadow person">
+          <!-- 
+          <div class="project-item item-shadow person">
             <img alt="" class="img-responsive" src="images/cobalt/gomesheadshot.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
@@ -571,12 +603,129 @@
             <a href="about.html#gomes" class="link-arrow">See profile <i class="icon ion-ios-arrow-right"></i></a>
           </div> -->
 
+
+         
+
+          <!-- KRASNAYA. This is a function template that you use to have different images. You will copy and past ehtis and these are each project. 
+            <script>
+               $(function() {
+                  jQuery.getJSON("js/grc/data.json", function( data ) {
+                  });
+                  // set template
+                  $.ajax({
+                    url: "js/grc/data.json",
+                    success: function(content) {
+                      var temp = $.trim($('#projectsquare').html())
+                      $.each(content, function(index, project) {
+                          if (project.team != "project") return
+                          var x = temp.replace(/{{section-subtitle}}/ig, project.section-subtitle).replace(/{{title1}}/ig, project.title1).replace(/{{title2}}/ig, project.title2).replace(/{{title3}}/ig, project.title3).replace(/{{img-responsive}}/ig, project.img-responsive).replace(/{{project-description}}/ig, pproject.project-description).replace(/{{project-link}}/ig, project.links.project-link);
+                          $('.people_galaxy_team').prepend(x);  NOTE: Idk what to do with this line
+                        });
+                      }
+                    })
+                  // loop over projects
+               });
+            </script>
+
+
+
+
+section-subtitle": "Portfolio",
+        "title1": "Smart reefs ",
+        "title2": "for coastal ",
+        "title3": "restoration",
+        "img-responsive": "images/cobalt/reef3.png",
+        "project-description": "With our reefs descriptions",
+        "team": "project",
+        "links"
+
+
+
+       KRASNAYA -->
+
+       <!-- KRASNAYA2 this should be the actual template of above. God willing and weather permitting of course.
+
+<script id="projectsquare" type="template">
+          <div class="project-item item-shadow project">
+            <img alt="" class="img-responsive" src="{{img-responsive}}">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <strong class="section-subtitle">{{section-subtitle}}</strong>
+                <h3 class="project-title">{{title1}}<br>{{title2}}<br>{{title3}}</h3>
+                <p class="project-description">{{project-description}}</p>
+              </div>
+            </div>
+            <a href="{{project-link}}" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+          </div>
+</script> 
+
+
+
+
+<script id="projectsquare" type="template">
+        <div class="project-item item-shadow project">
+            <img alt="" class="img-responsive" src="images/cobalt/reef3.png">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <strong class="section-subtitle">{{section-subtitle}}</strong>
+                <h3 class="project-title">{{project-title}}<br>for Coastal<br>Restoration</h3>
+                <p class="project-description">{{project-description}}</p>
+              </div>
+            </div>
+            <a href="{{project-link}}" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+          </div>
+</script>
+
+
+
+-->
+
+
           <div class="project-item item-shadow project">
             <img alt="" class="img-responsive" src="images/cobalt/reef3.png">
             <div class="project-hover">
               <div class="project-hover-content">
                 <strong class="section-subtitle">Portfolio Project</strong>
-                <h3 class="project-title">Smart Reefs<br>for Coastal<br>Restoration</h3>
+                <h3 class="project-title">Smart Reefs <br>for Coastal <br>Restoration</h3>
+                <p class="project-description">With coastal erosion threatening our way of life on the Gulf, we turn to biomimicry and sensors to evolve how we think about the humble artificial reef.</p>
+              </div>
+            </div>
+            <a href="reef.html" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+          </div>
+
+
+          <script>
+               $(function() {
+                  
+                  // set template
+                  $.ajax({
+                    url: "js/grc/data.json",
+                    success: function(content) {
+                      var temp = $.trim($('#projectsquare').html())
+                      $.each(content, function(index, project) {
+                          // if (project.team != "entrepreneur") return
+                          console.log(project)
+
+                          var x = temp.replace(/{{section_subtitle}}/ig, project.section_subtitle).replace(/{{title}}/ig, project.title).replace(/{{image}}/ig, project.image).replace(/{{project_description}}/ig, project.project_description).replace(/{{project_link}}/ig, project.links.project_link);
+                          
+                          $('.projects-data-inject').prepend(x);  
+                        });
+                      },
+                    failure: function(error) {
+                        console.log(error)
+                        }
+                    })
+                  // loop over projects
+               });
+         </script>
+
+
+         <div class="project-item item-shadow project">
+            <img alt="" class="img-responsive" src="images/cobalt/reef3.png">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <strong class="section-subtitle">Portfolio Project</strong>
+                <h3 class="project-title">Stmart Reefs<br>for Coastal<br>Restoration</h3>
                 <p class="project-description">With coastal erosion threatening our way of life on the Gulf, we turn to biomimicry and sensors to evolve how we think about the humble artificial reef.</p>
               </div>
             </div>
@@ -618,7 +767,8 @@
             </div>
             <a href="portfolio.html" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
           </div> -->
-          
+         
+
           <div class="project-item item-shadow person">
             <img alt="" class="img-responsive" src="images/cobalt/convey.jpg">
             <div class="project-hover">
@@ -646,7 +796,7 @@
             <a href="about.html#chipman" class="link-arrow">See profile <i class="icon ion-ios-arrow-right"></i></a>
           </div>
 
-          <div class="project-item item-shadow person">
+  <!--        <div class="project-item item-shadow person">
             <img alt="" class="img-responsive" src="images/cobalt/Becker.jpg">
             <div class="project-hover">
               <div class="project-hover-content">
@@ -716,12 +866,33 @@
               </div>
             </div>
             <a href="about.html#granger" class="link-arrow">See profile <i class="icon ion-ios-arrow-right"></i></a>
-          </div>
+          </div>-->
 
          
           
         </div>
       </section>
+
+
+<script id="datasquare" type="template">
+            <div class="project-item item-shadow person">
+            <img alt="" class="img-responsive" src="images/cobalt/logo_white.png">
+            <div class="project-hover">
+              <div class="project-hover-content">
+                <strong class="section-subtitle">CEO</strong>
+                <h3 class="project-title">BJ<br>Etscheid</h3>
+                <p class="project-description">...</p>
+              </div>
+            </div>
+            <a href="about.html#etscheid" class="link-arrow">See profile <i class="icon ion-ios-arrow-right"></i></a>
+          </div>
+</script> 
+
+
+
+
+
+
 
       <!-- Section Clients -->
 
@@ -787,7 +958,6 @@
 
 <!-- jQuery -->
 
-<script src="js/jquery.min.js"></script>
 <script src="js/animsition.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>

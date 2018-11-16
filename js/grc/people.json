@@ -1,18 +1,38 @@
 [
 	{
-		"fullname": "John Smith",
-		"position": "Associate",
-		"shortbio": "This is John Smith's short bio",
-		"thumbnail": "images/team/1-270x270.jpg",
+		"fullname": "Dr. Brian Becker",
+		"position": "Chief Scientist",
+		"shortbio": "Brian holds a Ph.D. in Geospatial Tech, an MS in Environmental Engineering, is a Habitat Biologist and a Wetlands Ecologist.",
+		"thumbnail": "images/cobalt/becker.jpg",
+		"team": "reef",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Janet Woolman",
+		"position": "Director of Operations",
+		"shortbio": "Janet Woolman, M.L.I.S., B.S., is an information scientist, and an experienced research and innovation specialist. Janet served as the Chief Innovation Officer at McNeese State University where she held the rank of tenured professor",
+		"thumbnail": "images/team/2-270x270.jpg",
 		"team": "ops",
 		"links": {
-			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+			"linkedin": "https://www.linkedin.com/in/janet-woolman-serialinnovator"
 		}
 	},
 	{
-		"fullname": "Jane Doe",
-		"position": "Analyst",
-		"shortbio": "This is Jane Doe's short bio",
+		"fullname": "Mike Herman",
+		"position": "Chief Engineer",
+		"shortbio": "A graduate of the University of Maryland with a degree in Nuclear Engineering, Mike has 25 years experience in the aquaculture, LED lighting, and entrepreneurship, founding ventures in the aquaculture space.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "reef",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/mike-herman-295333b0"
+		}
+	},
+	{
+		"fullname": "Don Chipman",
+		"position": "Smart Reef Project Manager",
+		"shortbio": "Chip graduated the US Naval Academy in 1991 with a Bachelors of Science degree in Oceanography. He earned a Masters of Science degree in Management from Troy State University in 2001 and later attended Stanford University in 2010 as a Hoover Fellow.",
 		"thumbnail": "images/team/2-270x270.jpg",
 		"team": "reef",
 		"links": {
@@ -20,19 +40,89 @@
 		}
 	},
 	{
-		"fullname": "Mary Poppins",
-		"position": "Analyst",
-		"shortbio": "This is Mary Poppins' short bio",
-		"thumbnail": "images/team/2-270x270.jpg",
-		"team": "reef",
+		"fullname": "Seann Convey",
+		"position": "Sr Analyst",
+		"shortbio": "Seann Convey is a graduate of Johns Hopkins with degrees in Material Science and Engineering, an entrepreneur, and technologist. Seann has previous experience managing engineering development in a mechanical device startup, ThermoLift.",
+		"thumbnail": "images/cobalt/convey.jpg",
+		"team": "galaxy",
 		"links": {
 			"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Peter Neuhaus",
+		"position": "Chief Technical Officer",
+		"shortbio": "Peter received his B.S. from MIT and his M.S. and Ph.D. from U.C. Berkeley. His work on exoskeletons is focused on lower extremity devices with application for mobility assistance for people with paralysis and paresis and strength and endurance enhancement.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "galaxy",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/peter-neuhaus-97282a1"
 		}
 	},
 	{
 		"fullname": "Tyson Cobb",
-		"position": "Analyst",
-		"shortbio": "This is Mary Poppins' short bio",
+		"position": "Lead Robotics Engineer",
+		"shortbio": "Tyson attended the University of Central Florida, majoring in Mechanical Engineering. After graduating, he worked in California as an R&D engineer in the medical industry for a large surgical device company.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "galaxy",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/tyson-cobb-32477732"
+		}
+	},
+	{
+		"fullname": "Matt Johnson",
+		"position": "User Interface Architect",
+		"shortbio": "Matt  he served as a Naval Aviator, flying both fixed wing aircraft and helicopters. Matt obtained his undergraduate degree in Aerospace Engineering at the University of Notre Dame, obtained a Masters of Science in Computer Science from Texas A&M – Corpus Christi, and completed his PhD from Delft University in the Netherlands.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "galaxy",
+		"links": {
+			"linkedin": "https://www.linkedin.com/in/matthew-johnson-5b691a8"
+		}
+	},
+	{
+		"fullname": "Sonny Granger",
+		"position": "Managing Partner",
+		"shortbio": "Sonny is an accomplished entrepreneur, real-estate developer & investor with a strong operations background. Sonny has personally funded numerous human mobility projects at IHMC.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "ops",
+		"links": {
+		"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "BJ Etscheid",
+		"position": "Chief Executive Offiser",
+		"shortbio": "A serial entrepreneur focused on the financial and start-up/tech industries, BJ has started, built and sold numerous companies to date.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "ops",
+		"links": {
+		"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Justin Witkin",
+		"position": "Managing Partner",
+		"shortbio": "Managing partner at AWKO, Justin has helped settle billions of dollars in complex  mass tort cases and is areal-estate and start-up/tech  investor.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "ops",
+		"links": {
+		"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "James Keane",
+		"position": "Strategic Adviser",
+		"shortbio": "James specializes in high-tech commercialization, with over 20 years of experience leading high-performance innovation and corporate venture capital teams at the world’s largest companies.",
+		"thumbnail": "images/team/2-270x270.jpg",
+		"team": "ops",
+		"links": {
+		"linkedin": "https://www.linkedin.com/in/yuanagain/"
+		}
+	},
+	{
+		"fullname": "Joe Gomes",
+		"position": "Strategic Advisor",
+		"shortbio": "Joe specializes in human performance and technology integration, with over seventeen years of experience working with professional sports teams, US Special Operations Forces, and private industry.",
 		"thumbnail": "images/team/2-270x270.jpg",
 		"team": "galaxy",
 		"links": {

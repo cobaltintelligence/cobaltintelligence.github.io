@@ -1,0 +1,43 @@
+[
+	{
+		"section_subtitle": "Portfolio",
+		"title": "Smart reefs ",
+		"image": "images/cobalt/reef2.png",
+		"project_description": "With our reefs descriptions",
+		"team": "projects",
+		"links": {
+			"project_link": "https://www.linkedin.com/in/mike-herman-295333b0"
+		}
+	},
+	{
+		"section_subtitle": "Portfolio",
+		"title": "Smart reefs ",
+		"image": "images/cobalt/reef2.png",
+		"project_description": "With our reefs descriptions",
+		"team": "projects",
+		"links": {
+			"project_link": "about.html#etscheid"
+		}
+	},
+	{
+		"section_subtitle": "Portfolio",
+		"title": "Smart reefs ",
+		"image": "images/cobalt/reef2.png",
+		"project_description": "With our reefs descriptions",
+		"team": "entreprenuer",
+		"links": {
+			"project_link": "about.html#etscheid"
+		}
+	},
+	{
+		"section_subtitle": "Portfolio Project",
+		"title": "Smart 3reefs ",
+		"image": "images/cobalt/reef3.png",
+		"project_description": "With our reefs descriptions",
+		"team": "entreprenuer",
+		"links": {
+			"project_link": "about.html#etscheid"
+		}
+	}
+]
+
