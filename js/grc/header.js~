@@ -43,7 +43,7 @@ const header_html = `
             <a href="" class="icon ion-social-facebook"></a>
             <a href="" class="icon ion-social-linkedin"></a>
           </div>
-          <div class="copy">© Cobalt Intelligence 2018. All Rights Reserved<br> Designed by Graceland Research</div>
+          <div class="copy">© Cobalt Intelligence 2018. All Rights Reseverd<br> Designed by Graceland Research</div>
         </div>
       </div>
 
