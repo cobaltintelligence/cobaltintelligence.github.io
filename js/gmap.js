@@ -17,38 +17,38 @@ function initialize() {
             {"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},
             {"featureType":"water","elementType":"all","stylers":[{"color":"#a4c4c8"},{"visibility":"on"}]}]
     };
-    
+
     map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
-    
-     
+
+
     //change address details here
-    var contentString = '<div class="map-info">' 
-    + '<div class="map-title">' 
-    + '<div class="brand" href="#"><img alt="" src="images/cobalt/logo114.png"><div class="brand-info"><div class="brand-name">Cobalt Intelligence</div><div class="brand-text"></div></div></div></div>' 
+    var contentString = '<div class="map-info">'
+    + '<div class="map-title">'
+    + '<div class="brand" href="#"><img alt="" src="images/cobalt/logo114.png"><div class="brand-info"><div class="brand-name">Cobalt Intelligence</div><div class="brand-text"></div></div></div></div>'
     + '<p class="map-address">'
     + '<div class="map-address-row">'
     + '  <i class="fa fa-map-marker"></i>'
     + '  <span class="text"><strong>Pensacola, FL 32502</strong><br>'
-    + '  S Palafox St</span>'
+    + '  601 S Palafox St</span>'
     + '</div>'
     + '<div class="map-address-row">'
     + '   <i class="fa fa-phone"></i>'
-    + '   <span class="text">850-555-5555</span>'
+    + '   <span class="text">850-912-9682</span>'
     + '</div>'
     + '<div class="map-address-row">'
     + '   <span class="map-email">'
     + '      <i class="fa fa-envelope"></i>'
-    + '      <span class="text">info@cobaltintel.com</span>'
+    + '      <span class="text">operations@cobaltintel.com</span>'
     + '   </span>'
-    + '</div>' 
+    + '</div>'
     + '<p class="gmap-open"><a href="https://www.google.com/maps/@30.406546, -87.214197,14" target="_blank">Open on Google Maps</a></p></div>';
-    
-    
+
+
     var infowindow = new google.maps.InfoWindow({
         content: contentString,
     });
-    
+
 
     // Uncomment down to show Marker
 
@@ -77,4 +77,3 @@ function initialize() {
 if ($('#map').length) {
     google.maps.event.addDomListener(window, 'load', initialize);
 }
-

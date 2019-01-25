@@ -1,7 +1,7 @@
 const header_html = `
     <!-- Sidebar Menu-->
     <div>
-      <div class="menu"> 
+      <div class="menu">
         <span class="close-menu icon-cross2 right-boxed"></span>
         <div class="menu-lang right-boxed">
           <p href="" class="active">Welcome</p>
@@ -14,36 +14,31 @@ const header_html = `
           <li>
             <a href="about.html">About</a>
             <ul>
-              <li><a href="about.html">Abstract</a></li>
-              <li><a href="about.html#investmentthesis">Investment Thesis</a></li>
-              <li><a href="about.html#team">Team</a></li>
-              <li><a href="portfolio.html#operatingthesis">Operating Thesis</a></li>
+			  <li><a href="about.html#howitworks">How The Process Works</a></li>
+
+              <li><a href="about.html#team">Our Team</a></li>
+			  <li><a href="about.html#pensacola">Pensacola Area</a></li>
             </ul>
           </li>
 
           <li>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="portfolio.html">Projects</a>
             <ul>
-              <li><a href="portfolio.html">Portfolio</a></li>
+
               <li><a href="reef.html">Smart Reef</a></li>
-              <li><a href="galaxy.html">Galaxy Exercise Device</a></li>
+              <li><a href="galaxy.html">Robotic Exercise Device</a></li>
             </ul>
           </li>
 
-          <li>
+          <!--<li>
             <a href="contact.html">Careers</a>
-          </li>
+          </li>-->
           <li>
             <a href="contact.html">Contact</a>
           </li>
         </ul>
         <div class="menu-footer right-boxed">
-          <div class="social-list">
-            <a href="" class="icon ion-social-twitter"></a>
-            <a href="" class="icon ion-social-facebook"></a>
-            <a href="" class="icon ion-social-linkedin"></a>
-          </div>
-          <div class="copy">© Cobalt Intelligence 2018. All Rights Reserved<br> Designed by Graceland Research</div>
+          <div class="copy">© Cobalt Intelligence 2018. All Rights Reserved</div>
         </div>
       </div>
 
@@ -64,15 +59,9 @@ const header_html = `
           </div>
         </a>
 
-        <div class="social-list hidden-xs">
-          <a href="" class="icon ion-social-twitter"></a>
-          <a href="" class="icon ion-social-facebook"></a>
-          <a href="" class="icon ion-social-linkedin"></a>
-        </div>
-
         <div class="navbar-spacer hidden-sm hidden-xs"></div>
 
-        <address class="navbar-address hidden-sm hidden-xs"><span class="text-dark">businessplans@cobaltintel.com</span></address>
+        <!--<address class="navbar-address hidden-sm hidden-xs"><span class="text-dark">businessplans@cobaltintel.com</span></address>-->
       </header>
     </div>
 `

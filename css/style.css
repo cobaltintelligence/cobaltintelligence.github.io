@@ -118,12 +118,16 @@ html{
 
 body{
   font-family: 'Poppins', sans-serif;
+/*font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+font-variant: small-caps;*/
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.025em;
   line-height: 2.1428;
   color: #7e7e7e;
-  background: #272727;
+  background: #cccccc;
   -webkit-overflow-scrolling:touch;
 }
 
@@ -211,7 +215,7 @@ h4,
   line-height: 1.25;
   letter-spacing: 0.025em;
   color: #fff;
-  margin:1.6rem 0;
+  margin:2.6rem 0;
 }
 
 h5,
@@ -221,7 +225,7 @@ h5,
   line-height: 1.1;
   letter-spacing:0;
   color: #fff;
-  margin:0.6em 0;
+  margin:2.6rem 0;
 }
 
 h6,
@@ -231,7 +235,7 @@ h6,
   line-height: 1.3333;
   letter-spacing:0;
   color: #fff;
-  margin:1.6rem 0;
+  margin:2.6rem 0;
 }
 
 h1 a,
@@ -479,7 +483,10 @@ label.error{
 
 /* 1.5 Icons */
 
-
+.col-sm-6 h4{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
 
 .icon{
   display: inline-block;
@@ -1065,7 +1072,10 @@ a.brand:focus{
 
 .section{
   padding:10.28rem 0;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
+
 
 .section-title{
   margin:0;
@@ -1159,7 +1169,7 @@ a.brand:focus{
 }
 
 .section-about-title{
-  margin-bottom: 5rem;
+  margin-bottom: 30px;
 }
 
 .dots-image{
@@ -1185,20 +1195,20 @@ a.brand:focus{
 .experience-box{
   position: relative;
   white-space:nowrap;
-  margin:6rem 0;
+  margin:4rem 0;
 }
 
 
 
 @media (min-width: 992px){
   .experience-box{
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 }
 
 @media (min-width: 1200px){
   .experience-box{
-    margin-top: 12.2rem;
+    margin-top: 8rem;
   }
 }
 
@@ -1243,7 +1253,7 @@ a.brand:focus{
 
 
 .section-projects{
-  padding-bottom: 8rem;
+  padding-bottom: 0rem;
 }
 
 .filter-content{
@@ -1302,7 +1312,9 @@ a.brand:focus{
   color: #00AFEF;
 }
 
-
+ul#red-list{
+	padding-inline-start: 0px;
+}
 
 /* 3.4.1 Projects Carousel */
 
@@ -2473,9 +2485,14 @@ a.brand:focus{
 }
 
 .text-display-1{
-  font-size: 1.714rem;
-  line-height: 2;
+  font-size: 1.4rem;
+  line-height: 1.5;
   letter-spacing: 0;
+}
+
+.text-display-1 .text-dark{
+	font-size: 1.9rem;
+	line-height: 2;
 }
 
 .text-display-1 p{
@@ -2547,6 +2564,9 @@ a.brand:focus{
   background:url(../images/bg/dots2.png) 0 0 repeat;
 }
 
+p.red-features{
+	margin-bottom: 8px;
+}
 
 
 /* 6.1 Works Grid */
@@ -2747,6 +2767,11 @@ a.brand:focus{
   overflow:hidden;
 }
 
+.project-detail-text{
+color: #ffffff;
+margin-bottom: 0;
+}
+
 .project-detail-item{
   min-height: 420px;
   background-size:cover;
@@ -2754,9 +2779,17 @@ a.brand:focus{
   padding: 6.78rem 11.2rem;
 }
 
+.hangingindent {
+  padding-left: 22px;
+  text-indent: -22px;
+  color: #ffffff;
+}
+
 .project-detail-info{
   background-color: #272727;
   padding: 3.3rem;
+  padding-bottom: 0;
+  padding-top: 1rem;
 }
 
 .project-detail-control{
@@ -3378,7 +3411,7 @@ a.brand:focus{
 }
 
 .col-service h4{
-  margin-top: 3.3rem;
+  margin-top: 8px;
 }
 
 .col-service p{
@@ -3732,7 +3765,7 @@ a.brand:focus{
 
 
   .section-about{
-    padding-top: 12rem;
+    padding-top: 4rem;
   }
 
 

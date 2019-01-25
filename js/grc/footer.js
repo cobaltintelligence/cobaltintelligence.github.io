@@ -6,17 +6,17 @@ const footer_html = `
           <img alt="cobalt logo" width="200" src="images/cobalt/logo_white.png">
         </div>
         <div class="flex-item">
-          <div class="inline-block">© Cobalt Intelligence 2018<br>All Rights Resevered<br>Designed by Graceland Research</div>
+          <div class="inline-block"><br><br>© Cobalt Intelligence 2018<br>All Rights Reserved</div>
         </div>
-        <div class="flex-item">
+        <!--<div class="flex-item">
           <ul>
             <li><a href="">Site Map</a></li>
             <li><a href="">Term & Conditions</a></li>
             <li><a href="">Privacy Policy</a></li>
             <li><a href="contact.html">Help</a></li>
           </ul> 
-        </div>
-        <div class="flex-item">
+        </div>-->
+        <!--<div class="flex-item">
           <ul>
             <li><a href="about.html">About</a></li>
             <li><a href="about.html#investmentthesis">Investment Thesis</a></li>
@@ -27,15 +27,15 @@ const footer_html = `
             <li><a href="contact.html">Contact</a></li>
             
           </ul> 
-        </div>
+        </div>-->
         
-        <div class="flex-item">
+        <!--<div class="flex-item">
           <div class="social-list">
             <a href="" class="icon ion-social-twitter"></a>
             <a href="" class="icon ion-social-facebook"></a>
             <a href="" class="icon ion-social-linkedin"></a>
           </div>
-        </div>
+        </div>-->
       </div>
     </footer>
 `

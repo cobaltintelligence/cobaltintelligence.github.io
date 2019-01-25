@@ -1,19 +1,6 @@
 # Cobalt Intelligence Homepage
 Created by Yuan Wang, Graceland Research
 
-## Local server
-```
-python -m SimpleHTTPServer 9000
-```
-## Remote
-```
-bash push.sh 'some comment'
-```
-
-## Content links
-- https://docs.google.com/presentation/d/1rpnfvRdYYB90yeufM35NRheu6WwBzRcUgWfGscKvWX8/edit?usp=drive_web&ouid=114590584917956070096
-- https://docs.google.com/spreadsheets/d/1Kx3d5DWA9QO3OY7W86RqbZLVZZ-PM8CEjB0xz2tqIXk/edit#gid=0
-
 ## License
 Copyright 2018 Cobalt Intelligence
 
